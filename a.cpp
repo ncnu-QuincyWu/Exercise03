@@ -4,5 +4,5 @@ using std::endl;
 
 int main() {
     cout << "Hello, GitHub.\n";
-    return 1;
+    return 0;
 }
