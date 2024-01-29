@@ -3,6 +3,6 @@ using std::cout;
 using std::endl;
 
 int main() {
-    cout << "Hello, world.\n";
+    cout << "Hello, GitHub.\n";
     return 0;
 }
