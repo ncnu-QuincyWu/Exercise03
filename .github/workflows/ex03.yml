@@ -1,0 +1,9 @@
+name: Push a commit
+run-nmae: ${{ github.actor }} is testing GitHub Actions.
+on: [push]
+jobs:
+  My-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This job is running on a ${{ runner.os}} server."
+      - run: echo "🍏 This job's status is ${{ job.status }}."
